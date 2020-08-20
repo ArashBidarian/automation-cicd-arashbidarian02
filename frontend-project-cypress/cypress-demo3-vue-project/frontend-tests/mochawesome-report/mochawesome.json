@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-07-20T06:57:04.889Z",
-    "end": "2020-07-20T06:57:08.302Z",
-    "duration": 3413,
+    "start": "2020-08-20T22:11:49.974Z",
+    "end": "2020-08-20T22:11:52.986Z",
+    "duration": 3012,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "1770487f-6abc-40a1-a885-a04520e41b59",
+      "uuid": "3f41935c-57f1-4255-b656-b9ff33c0680e",
       "title": "",
       "fullFile": "cypress/integration/regression-test-suite00-loginlogout.spec.js",
       "file": "cypress/integration/regression-test-suite00-loginlogout.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "dd869abf-0787-45cc-8af7-8f1919bd9709",
+          "uuid": "eed6d453-0e10-41d9-b164-54e9b9491d76",
           "title": "Regression test suite",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Perform valid login",
               "fullTitle": "Regression test suite Perform valid login",
               "timedOut": null,
-              "duration": 2058,
+              "duration": 1999,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('http://localhost:3000'); // Assertion01\ncy.title().should('include', 'Testers Hotel'); // Assertion02\ncy.contains('Login'); //cy.get('div.field:nth-child(1) > input:nth-child(2)') Alternative 01\n// Write in Username \"tester01\"\ncy.get(':nth-child(1) > input').type('tester01'); // User password\ncy.get(':nth-child(2) > input').type('GteteqbQQgSr88SwNExUQv2ydb7xuf8c'); // Push Click on Login button\ncy.get('.btn').click(); // Assertion när inloggad\ncy.contains('Tester Hotel Overview'); //logout by clicking on logout button\ncy.get('.user > .btn').click(); // Assertion01\ncy.title().should('include', 'Testers Hotel'); // Assertion02\ncy.contains('Login');",
               "err": {},
-              "uuid": "5fa52f68-2266-493a-9941-aa8317b50e00",
-              "parentUUID": "dd869abf-0787-45cc-8af7-8f1919bd9709",
+              "uuid": "1284201b-a680-4c42-9bcc-7e75b3647f64",
+              "parentUUID": "eed6d453-0e10-41d9-b164-54e9b9491d76",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5fa52f68-2266-493a-9941-aa8317b50e00"
+            "1284201b-a680-4c42-9bcc-7e75b3647f64"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2058,
+          "duration": 1999,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
