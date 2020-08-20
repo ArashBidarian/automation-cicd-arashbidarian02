@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-20T06:57:04.889Z",
+    "end": "2020-07-20T06:57:08.302Z",
+    "duration": 3413,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1770487f-6abc-40a1-a885-a04520e41b59",
+      "title": "",
+      "fullFile": "cypress/integration/regression-test-suite00-loginlogout.spec.js",
+      "file": "cypress/integration/regression-test-suite00-loginlogout.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "dd869abf-0787-45cc-8af7-8f1919bd9709",
+          "title": "Regression test suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Perform valid login",
+              "fullTitle": "Regression test suite Perform valid login",
+              "timedOut": null,
+              "duration": 2058,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://localhost:3000'); // Assertion01\ncy.title().should('include', 'Testers Hotel'); // Assertion02\ncy.contains('Login'); //cy.get('div.field:nth-child(1) > input:nth-child(2)') Alternative 01\n// Write in Username \"tester01\"\ncy.get(':nth-child(1) > input').type('tester01'); // User password\ncy.get(':nth-child(2) > input').type('GteteqbQQgSr88SwNExUQv2ydb7xuf8c'); // Push Click on Login button\ncy.get('.btn').click(); // Assertion när inloggad\ncy.contains('Tester Hotel Overview'); //logout by clicking on logout button\ncy.get('.user > .btn').click(); // Assertion01\ncy.title().should('include', 'Testers Hotel'); // Assertion02\ncy.contains('Login');",
+              "err": {},
+              "uuid": "5fa52f68-2266-493a-9941-aa8317b50e00",
+              "parentUUID": "dd869abf-0787-45cc-8af7-8f1919bd9709",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5fa52f68-2266-493a-9941-aa8317b50e00"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2058,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {},
+      "version": "5.1.0"
+    }
+  }
+}

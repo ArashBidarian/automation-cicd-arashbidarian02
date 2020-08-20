@@ -1,0 +1,128 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1597531546096,531,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,531,0,23
+1597531546656,1,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,1,0,0
+1597531546658,1,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,1,0,0
+1597531546660,1,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,1,0,0
+1597531546661,2,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,2,0,0
+1597531546663,1,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,1,0,0
+1597531546009,537,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,537,118,23
+1597531546665,515,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,515,0,0
+1597531547183,5,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,5,0,0
+1597531547190,6,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,6,0,0
+1597531547198,6,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,6,0,0
+1597531547207,5,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,5,0,0
+1597531547214,3,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,3,0,0
+1597531546665,540,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,540,13,0
+1597531547219,505,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,505,0,0
+1597531547726,1,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,1,0,0
+1597531547728,2,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,2,0,0
+1597531547730,1,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,1,0,0
+1597531547732,1,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,1,0,0
+1597531547734,1,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,1,0,0
+1597531547218,511,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,511,6,0
+1597531547736,502,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,502,0,0
+1597531548238,2,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,2,0,0
+1597531548240,2,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,2,0,0
+1597531548242,1,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,1,0,0
+1597531548243,2,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,2,0,0
+1597531548245,1,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,1,0,0
+1597531547736,510,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,510,0,0
+1597531548247,506,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,506,0,0
+1597531548755,6,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,5,0,0
+1597531548762,4,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,4,0,0
+1597531548767,3,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,3,0,0
+1597531548771,3,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,2,0,0
+1597531548774,2,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,2,0,0
+1597531548247,524,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,522,6,0
+1597531548777,509,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,509,0,0
+1597531549289,6,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,5,0,0
+1597531549297,2,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,2,0,0
+1597531549300,1,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,1,0,0
+1597531549301,1,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,1,0,0
+1597531549302,4,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,4,0,0
+1597531548777,523,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,522,6,0
+1597531549306,513,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,513,0,0
+1597531549821,4,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,4,0,0
+1597531549827,4,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,4,0,0
+1597531549833,2,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,2,0,0
+1597531549836,3,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,3,0,0
+1597531549839,3,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,2,0,0
+1597531549306,529,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,528,7,0
+1597531549842,505,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,504,0,0
+1597531550349,4,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,4,0,0
+1597531550355,4,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,4,0,0
+1597531550360,3,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,3,0,0
+1597531550364,2,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,2,0,0
+1597531550367,3,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,3,0,0
+1597531549842,521,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,520,7,0
+1597531550370,505,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,505,0,0
+1597531550878,4,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,4,0,0
+1597531550884,4,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,4,0,0
+1597531550889,5,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,5,0,0
+1597531550895,4,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,4,0,0
+1597531550899,4,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,4,0,0
+1597531550370,526,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,526,7,0
+1597531550904,506,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,505,0,0
+1597531551410,2,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,2,0,0
+1597531551412,1,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,1,0,0
+1597531551414,1,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,1,0,0
+1597531551415,1,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,1,0,0
+1597531551417,1,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,1,0,0
+1597531550903,512,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,511,3,0
+1597531551419,519,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,519,0,0
+1597531551938,1,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,1,0,0
+1597531551939,1,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,1,0,0
+1597531551940,1,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,1,0,0
+1597531551941,1,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,1,0,0
+1597531551942,1,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,1,0,0
+1597531551418,524,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,524,1,0
+1597531551943,505,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,504,0,0
+1597531552449,4,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,4,0,0
+1597531552455,3,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,3,0,0
+1597531552460,3,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,3,0,0
+1597531552463,3,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,3,0,0
+1597531552466,2,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,2,0,0
+1597531551943,520,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,519,6,0
+1597531552469,509,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,509,0,0
+1597531552980,4,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,4,0,0
+1597531552986,6,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,6,0,0
+1597531552992,2,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,2,0,0
+1597531552995,3,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,3,0,0
+1597531552999,2,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,2,0,0
+1597531552469,526,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,526,6,0
+1597531553001,553,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,553,0,0
+1597531553554,7,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,7,0,0
+1597531553561,1,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,1,0,0
+1597531553562,1,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,1,0,0
+1597531553563,1,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,1,0,0
+1597531553565,1,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,1,0,0
+1597531553001,564,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,564,1,0
+1597531553567,502,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,502,0,0
+1597531554071,4,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,4,0,0
+1597531554076,1,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,1,0,0
+1597531554077,1,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,1,0,0
+1597531554078,1,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,1,0,0
+1597531554079,1,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,1,0,0
+1597531553566,510,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,510,4,0
+1597531554080,503,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,503,0,0
+1597531554584,2,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,2,0,0
+1597531554587,3,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,3,0,0
+1597531554590,2,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,2,0,0
+1597531554592,1,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,1,0,0
+1597531554594,1,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,1,0,0
+1597531554080,512,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,512,3,0
+1597531554595,502,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,502,0,0
+1597531555099,2,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,2,0,0
+1597531555102,2,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,2,0,0
+1597531555105,3,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,3,0,0
+1597531555109,2,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,2,0,0
+1597531555112,2,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,2,0,0
+1597531554595,513,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,513,6,0
+1597531555115,504,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,504,0,0
+1597531555621,8,GET http://localhost:3000/api/rooms,200,OK,Thread Group 1-1,text,true,,640,281,1,1,http://localhost:3000/api/rooms,8,0,0
+1597531555630,1,GET http://localhost:3000/api/clients,200,OK,Thread Group 1-1,text,true,,1064,283,1,1,http://localhost:3000/api/clients,1,0,0
+1597531555631,1,GET http://localhost:3000/api/bill,200,OK,Thread Group 1-1,text,true,,828,281,1,1,http://localhost:3000/api/bills,1,0,0
+1597531555632,1,GET http://localhost:3000/api/reservations,200,OK,Thread Group 1-1,text,true,,439,288,1,1,http://localhost:3000/api/reservations,1,0,0
+1597531555633,1,POST http://localhost:3000/api/logout,200,OK,Thread Group 1-1,text,true,,316,288,1,1,http://localhost:3000/api/logout,1,0,0
+1597531555115,516,Test,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,3675,1711,1,1,null,516,3,0
+1597531555634,505,POST http://localhost:3000/api/login,200,OK,Thread Group 1-1,text,true,,388,290,1,1,http://localhost:3000/api/login,505,0,0
