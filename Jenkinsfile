@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh '''
                     cd frontend-project-cypress/cypress-demo3-vue-project/frontend-tests/
-                    npm install && npm run cypress:run
+                    npm install && npm run cypress:frontend:createrum
                     echo 'Need to publish test results'
                     pwd
                     ls -lart
@@ -30,19 +30,46 @@ pipeline {
                 ])
             }
         }
-        
+
         stage('Backend tests') {
             steps {
-
-                sh 'pwd'
-                sh 'ls -lart'
+                sh '''
+                    cd backend-project-mochawsome/teau-hotel-application/backend-test/
+                    npm install && npm run test:report:assignment02
+                    echo 'Need to publish test results'
+                    pwd
+                    ls -lart
+                '''
+                archiveArtifacts allowEmptyArchive: true,  artifacts: 'backend-project-mochawsome/teau-hotel-application/backend-test/cypress/videos/**', followSymlinks: false
+                publishHTML([
+                    allowMissing: false, 
+                    alwaysLinkToLastBuild: false, 
+                    keepAll: false, 
+                    reportDir: 'backend-project-mochawsome/teau-hotel-application/backend-test/mochawesome-report', 
+                    reportFiles: 'mochawesome.html', 
+                    reportName: 'Backend Report', 
+                    reportTitles: ''])
+                
             }
         }
         
+        
         stage('Performance tests') {
             steps {
-                sh 'pwd'
-                sh 'ls -lart'
+                sh '''
+                    cd performance-project-jmeter/performance-tests/
+                    rm test1.csv -Rf && rm html-reports/ -Rf
+                    jmeter -n -t performance_arashbidarian.jmx -l test1.csv -e -o html-reports/
+                '''
+                publishHTML([
+                    allowMissing: false, 
+                    alwaysLinkToLastBuild: false, 
+                    keepAll: false, 
+                    reportDir: 'performance-project-jmeter/performance-tests/html-reports', 
+                    reportFiles: 'index.html', 
+                    reportName: 'JMeter dashboard Report', 
+                    reportTitles: '' 
+                ])
             }
         }
         
